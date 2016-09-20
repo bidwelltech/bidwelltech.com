@@ -1,0 +1,135 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+
+  background: #f7f7f7; /* fallback for old browsers */
+}
+
+body > header {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+body > header h1 {
+  margin-bottom: 0;
+  font-size: 2rem;
+  /* Line up with subtitle text */
+  margin-left: -2px;
+}
+
+body > .container {
+  margin-bottom: 10vh;
+  /* temporary while they're little content on the website */
+  min-height: 50vh;
+}
+
+body > .container-fluid,
+body > footer {
+  background: #373a3c;
+  font-weight: 300;
+  padding: 30px 0 60px;
+  color: #fff;
+}
+
+.cta > :first-child {
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+
+footer .cta > :first-child {
+  margin-top: 0;
+}
+
+body > .container > .row:first-child {
+  margin-bottom: 10vh;
+}
+body > .container > .row {
+  margin-bottom: 5vh;
+}
+
+.who-we-are > h2 {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.our-process li {
+  margin-bottom: 1rem;
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body > header {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+  }
+
+  body > footer {
+    background: #373a3c;
+    font-weight: 300;
+    padding: 60px 0 60px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    background: #ECE9E6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                            
+  }
+
+  .who-we-are > h2 {
+    font-size: 4rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .who-we-are > h2 {
+    font-size: 5rem;
+  }
+  body > header {
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+  }
+}
+
+.primary {
+  color: #ff6e00;
+}
+
+/* Typography */
+a {
+  color: #ff6e00;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #ff9752;
+  text-decoration: none;
+}
+
+body > footer .link-list ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+body > footer .link-list ul li {
+  list-style: none;
+}
+
+.testimonial > .name {
+  margin-bottom: 0;
+}
+
+.testimonial > .organization {
+
+}
+
+.testimonial > .quote {
+
+}
